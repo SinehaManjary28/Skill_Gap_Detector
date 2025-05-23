@@ -48,7 +48,7 @@ def normalize_skills_list(skill_list):
     return normalized
 
 # ---------------------- LOAD DATA ----------------------
-dataset_path = r"C:\Users\Asus\Documents\MDS\Internship (Kanini software solutions )\Project\final.csv"
+dataset_path = "final.csv"
 df = pd.read_csv(dataset_path)
 
 # Remove duplicates
