@@ -111,7 +111,7 @@ if uploaded_file:
     display_pdf_preview_in_sidebar(tmp_pdf_path)
 
     # Extract Skills
-    skill_json_path = r"C:\Users\Asus\Documents\MDS\Internship (Kanini software solutions )\Project\skills.json"
+    skill_json_path = "skills.json"
     extracted_skills = extract_skills_with_exact_match(tmp_pdf_path, skill_json_path)
     os.remove(tmp_pdf_path)
 
